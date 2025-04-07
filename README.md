@@ -1,7 +1,11 @@
 # 📌 Project Prompt: Go-Management POS System
 ## Goal:
-> Build a Point of Sale system using Golang according to Clean Architecture, supporting product management, invoices, customers, inventory, import and export and reporting.
+> Build a Point of Sale system using Golang according to Clean Architecture, supporting product management, invoices, customers, inventory, import and export and reporting. 
+>
 
+![This is an alt text.](/docs/img/architect.png)
+![This is an alt text.](/docs/img/image1.png)
+![This is an alt text.](/docs/img/image.png)
 # Project Structure (Clean Architecture)
 ```
 /go-management-pos
@@ -67,8 +71,7 @@
 
 # Main Functional Modules
 ## a. Auth & User
-- Features: 
-    - Register/login, `JWT` tokens, role-based access (admin, cashier, manager).
+- Features: Register/login, `JWT` tokens, role-based access (admin, cashier, manager).
 - Implementation:
 Model: User struct with fields like Email, PasswordHash, Role.
 Repository: Interface for CRUD operations on users.
